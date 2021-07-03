@@ -71,7 +71,7 @@ export function doFileGet(uri: string, saveFile: boolean = true, onSuccess?: Get
 
         dispatch(
           doToast({
-            message: `Failed to view ${uri}, this video do not have active P2P network peers. Help seed this content with https://lbry.com/get`,
+            message: `Failed to view ${uri}, this video do not have active P2P network peers. Help seed this content by using Desktop App https://lbry.com/get`,
             isError: true,
           })
         );
